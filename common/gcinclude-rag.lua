@@ -372,18 +372,10 @@ function gcinclude.DoAbility()
 end
 
 function gcinclude.BuildLockableSet(equipment)
-    --f
-    local player = gData.GetPlayer()
-    local ignoreMainSub = (player ~= nil and player.Status == 'Resting')
-    --f
     local lockableSet = {}
 
     for slot, item in pairs(equipment) do
-        --f
-        if (ignoreMainSub and (slot == 'Main' or slot == 'Sub')) then
-            do goto continue end
-        end
-        --f
+
         if (LockableEquipment[slot]:contains(item.Name)) then
             lockableSet[slot] = item
             if (
@@ -406,7 +398,6 @@ function gcinclude.BuildLockableSet(equipment)
             end
         end
 
-        ::continue:: --f
     end
 
     return lockableSet
