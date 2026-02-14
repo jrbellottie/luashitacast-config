@@ -98,6 +98,7 @@ function gcaliases.BuildSpellAliases_CoP()
     add('ss', 'Stoneskin', '<me>')
     add('blk', 'Blink', '<me>')
     add('aqv', 'Aquaveil', '<me>')
+    add('rr1', 'Reraise', '<me>')
 
     -- Cures (kept explicit to avoid colliding with common chat shortcuts)
     add('c1', 'Cure', '<t>')
