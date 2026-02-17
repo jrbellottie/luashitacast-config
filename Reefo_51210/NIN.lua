@@ -99,7 +99,6 @@ local sets = {
     IdleALTDT = { -- Optional alternate DT idle
     },
     Resting = {
-        Main = 'Dark Staff',
     },
     Town = { -- Optional: use this for cities
     },

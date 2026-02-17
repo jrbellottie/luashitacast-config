@@ -50,6 +50,22 @@ local sets = {
     Idle = {
         Main = 'Earth Staff',
         Ammo = 'Morion Tathlum',
+        Head = 'Wizard\'s Petasos',
+        Neck = 'Rep.Mythril Medal',
+        Ear1 = 'Moldavite Earring',
+        Ear2 = 'Cunning Earring',
+        Body = 'Wizard\'s Coat',
+        Hands = 'Wizard\'s Gloves',
+        Ring1 = 'Genius ring',
+        Ring2 = 'Genius ring',
+        Back = 'Black cape +1',
+        Waist = 'Shaman\'s belt',
+        Legs = 'Elder\'s Braguette',
+        Feet = 'Wizard\'s Sabots',
+    },
+    IdleALT = {
+        Main = 'Earth Staff',
+        Ammo = 'Morion Tathlum',
         Head = 'Baron\'s Chapeau',
         Neck = 'Black neckerchief',
         Ear1 = 'Moldavite Earring',
@@ -63,7 +79,6 @@ local sets = {
         Legs = 'Elder\'s Braguette',
         Feet = 'Elder\'s Sandals',
     },
-    IdleALT = {},
     IdleMaxMP = {
         -- Ammo = { Name = 'Hedgehog Bomb', Priority = 100 },
         -- Neck = { Name = 'Uggalepih Pendant', Priority = 100 },
@@ -227,7 +242,7 @@ local sets = {
         -- Ear1 = 'Merman\'s Earring',
         -- Ear2 = 'Magnetic Earring', -- 8
         -- Waist = 'Silver Obi +1', -- 8
-        -- Feet = 'Wizard\'s Sabots', -- 20
+        Feet = 'Wizard\'s Sabots', -- 20
         -- Back = 'Umbra Cape',
     },
     SIRD = { -- Used on Stoneskin, Blink, Aquaveil and Utsusemi casts regardless of Override set. If you wish to remain in FireRes etc. during casts, leave empty.
@@ -238,7 +253,7 @@ local sets = {
         -- Ear1 = 'Merman\'s Earring',
         -- Ear2 = 'Magnetic Earring', -- 8
         -- Waist = 'Silver Obi +1', -- 8
-        -- Feet = 'Wizard\'s Sabots', -- 20
+        Feet = 'Wizard\'s Sabots', -- 20
         -- Ammo = 'Tiphia Sting',
         -- Back = 'Umbra Cape',
     },
@@ -381,7 +396,7 @@ local sets = {
     Enfeebling = {
         -- Head = 'Genie Tiara',
         -- Neck = 'Enfeebling Torque',
-        -- Body = 'Wizard\'s Coat',
+        Body = 'Wizard\'s Coat',
         -- Legs = 'Igqira Lappas',
         -- Hands = 'Nashira Gages',
         -- Feet = 'Nashira Crackows',
@@ -425,7 +440,7 @@ local sets = {
         -- Ring2 = 'Omniscient Ring',
         -- Back = 'Merciful Cape',
         Waist = 'Swift Belt',
-        -- Legs = 'Wzd. Tonban +1',
+        Legs = 'Wizard\'s Tonban',
         -- Feet = 'Igqira Huaraches',
     },
     Stun = {
@@ -439,12 +454,15 @@ local sets = {
         -- Ring1 = 'Snow Ring',
         -- Ring2 = 'Omniscient Ring',
         -- Back = 'Merciful Cape',
-        -- Waist = 'Swift Belt',
+        Waist = 'Swift Belt',
+        Legs = 'Wizard\'s Tonban',
         -- Legs = 'Nashira Seraweels',
         -- Feet = 'Nashira Crackows',
     },
 
     Nuke = {
+        Body = 'Black Cotehardie',
+        Feet = 'Elder\'s Sandals',
         -- Ammo = 'Phtm. Tathlum',
         -- Head = 'Maat\'s Cap',
         -- Neck = 'Prudence Torque',

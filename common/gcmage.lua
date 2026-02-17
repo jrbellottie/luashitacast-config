@@ -19,8 +19,8 @@ local fire_staff = { Main = 'Fire Staff', }
 local earth_staff = { Main = 'Earth Staff', }
 local water_staff = { Main = 'Water Staff', }
 local wind_staff = { Main = 'Wind Staff', }
-local ice_staff = { Main = 'Ice Staff', }
-local thunder_staff = { Main = 'Thunder Staff', }
+local ice_staff = { Main = 'Aquilo\'s Staff', }
+local thunder_staff = { Main = 'Jupiter\'s Staff', }
 local light_staff = { Main = 'Light Staff', }
 local dark_staff = { Main = 'Dark Staff', }
 
