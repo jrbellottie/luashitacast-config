@@ -56,11 +56,11 @@ local sets = {
         Ear2 = 'Cunning Earring',
         Body = 'Black Cloak',
         Hands = 'Wizard\'s Gloves',
-        Ring1 = 'Genius ring',
-        Ring2 = 'Genius ring',
-        Back = 'Rainbow cape',
+        Ring1 = 'Snow ring',
+        Ring2 = 'Snow ring',
+        Back = 'Prism Cape',
         Waist = 'Desert Rope',
-        Legs = 'Errant Slops',
+        Legs = 'Mahatma Slops',
         Feet = 'Wizard\'s Sabots',
     },
     IdleALT = {
@@ -492,7 +492,9 @@ local sets = {
     },
 
     Nuke = {
-        Body = 'Black Cotehardie',
+        -- Body = 'Black Cotehardie',
+        Body = 'Igqira Weskit',
+        Hands = 'Igqira Manillas',
         Feet = 'Elder\'s Sandals',
         -- Ammo = 'Phtm. Tathlum',
         Head = 'Wizard\'s Petasos',
