@@ -9,8 +9,8 @@ local fire_staff = { Main = 'Fire Staff', }
 local earth_staff = { Main = 'Earth Staff', }
 local water_staff = { Main = 'Water Staff', }
 local wind_staff = { Main = 'Wind Staff', }
-local ice_staff = { Main = 'Ice Staff', }
-local thunder_staff = { Main = 'Thunder Staff', }
+local ice_staff = { Main = 'Aquilo\'s Staff', }
+local thunder_staff = { Main = 'Jupiter\'s Staff', }
 local light_staff = { Main = 'Light Staff', }
 local dark_staff = { Main = 'Dark Staff', }
 
@@ -59,7 +59,7 @@ local sets = {
         Body  = "Haubergeon",
         Hands = 'Ochimusha Kote',
         Legs  = "Byakko's Haidate",
-        Feet  = 'Ninja Kyahan',
+        Feet  = 'Fuma Kyahan',
         Waist = 'Koga Sarashi',
         Ear1  = 'Suppanomimi',
         Ear2  = 'Ethereal Earring',
@@ -75,7 +75,7 @@ local sets = {
         Body  = "Elder\'s surcoat",
         Hands = 'Elder\'s Bracers',
         Legs  = "Elder\'s Braguette",
-        Feet  = 'Ninja Kyahan',
+        Feet  = 'Fuma Kyahan',
         Waist = 'Desert Rope',
         Ear1  = 'Suppanomimi',
         Ear2  = 'Ethereal Earring',
@@ -145,7 +145,7 @@ local sets = {
         Body  = "Arhat's Gi",
         Hands = 'Rasetsu Tekko',
         Legs  = "Byakko's Haidate",
-        Waist = 'Koga Sarashi',
+        Waist = 'Desert Sash',
         Back  = 'Gigant Mantle',
         Ear1  = 'Merman\'s earring',
         Ear2  = 'Merman\'s earring',
@@ -159,7 +159,7 @@ local sets = {
         Body  = "Arhat's Gi",
         Hands = 'Rasetsu Tekko',
         Legs  = "Byakko's Haidate",
-        Waist = 'Koga Sarashi',
+        Waist = 'Desert Sash',
         Back  = 'Gigant Mantle',
         Ear1  = 'Merman\'s earring',
         Ear2  = 'Merman\'s earring',
