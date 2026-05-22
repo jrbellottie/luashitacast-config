@@ -106,7 +106,7 @@ local sets = {
         -- Back = { Name = 'Merciful Cape', Priority = 100 },
     },
     Resting = {
-        Main = 'Dark Staff',
+        Main = 'Pluto\'s Staff',
         Body = 'Errant Hpl.',
         head = 'Wizard\'s Petasos', 
     },
@@ -250,7 +250,7 @@ local sets = {
 
     Precast = {
         -- Ear1 = 'Loquac. Earring',
-        -- Feet = 'Rostrum Pumps',
+        Feet = 'Rostrum Pumps',
     },
     Casting = { -- Default spell interuption down (SIRD) used for Idle sets
         -- Main = 'Eremite\'s Wand', -- 25
@@ -441,7 +441,7 @@ local sets = {
         -- Ring1 = 'Snow Ring',
         -- Ring2 = 'Omniscient Ring',
         -- Waist = 'Sorcerer\'s Belt',
-        -- Feet = 'Src. Sabots +1',
+        Feet = 'Rostrum pumps',
         -- Head = 'Wizard\'s Petasos',
 
     },
@@ -472,6 +472,7 @@ local sets = {
         Ear1 = 'Cunning Earring',
         Ear2 = 'Cunning Earring',
         Hands = 'Errant Cuffs',
+        Feet = 'Rostrum Pumps',
     },
     Stun = {
         -- Ammo = 'Phtm. Tathlum',
@@ -487,6 +488,7 @@ local sets = {
         Head = 'Wizard\'s Petasos',
         Waist = 'Swift Belt',
         Legs = 'Wizard\'s Tonban',
+        Feet = 'Rostrum Pumps',
         -- Legs = 'Nashira Seraweels',
         -- Feet = 'Nashira Crackows',
     },
@@ -495,7 +497,7 @@ local sets = {
         -- Body = 'Black Cotehardie',
         Body = 'Igqira Weskit',
         Hands = 'Igqira Manillas',
-        Feet = 'Elder\'s Sandals',
+        Feet = 'Rostrum Pumps',
         -- Ammo = 'Phtm. Tathlum',
         Head = 'Wizard\'s Petasos',
         -- Neck = 'Prudence Torque',

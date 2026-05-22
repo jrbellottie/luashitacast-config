@@ -12,7 +12,7 @@ local wind_staff = { Main = 'Wind Staff', }
 local ice_staff = { Main = 'Aquilo\'s Staff', }
 local thunder_staff = { Main = 'Jupiter\'s Staff', }
 local light_staff = { Main = 'Light Staff', }
-local dark_staff = { Main = 'Dark Staff', }
+local dark_staff = { Main = 'Pluto\'s Staff', }
 
 -- Obis (leave commented if not owned)
 local karin_obi = { -- Waist = 'Karin Obi',
@@ -43,7 +43,7 @@ local uggalepih_pendant = { -- Neck = 'Uggalepih Pendant',
 }
 local warlocks_mantle = { -- Back = 'Warlock\'s Mantle',
 }
-local fenrirs_stone = { -- Ammo = 'Fenrir\'s Stone',
+local fenrirs_stone = { Ammo = 'Fenrir\'s Stone',
 }
 
 local koga_hakama = { Legs = 'Koga Hakama', }
@@ -68,20 +68,18 @@ local sets = {
         Back  = 'Forager\'s Mantle',
     },
     IdleALT = {
-        Range = 'Ebisu Fishing Rod',
-        Ammo  = 'fly lure',
         Head  = 'Merman\'s hairpin',
         Neck  = 'Peacock Amulet',
-        Body  = "Elder\'s surcoat",
-        Hands = 'Elder\'s Bracers',
-        Legs  = "Elder\'s Braguette",
-        Feet  = 'Fuma Kyahan',
+        Body  = "field tunica",
+        Hands = 'field gloves',
+        Legs  = "field hose",
+        Feet  = 'field boots',
         Waist = 'Desert Rope',
         Ear1  = 'Suppanomimi',
         Ear2  = 'Ethereal Earring',
         Ring1 = 'Carect Ring',
         Ring2 = 'Astral Ring',
-        Back  = 'Aurora Mantle',
+        Back  = 'Gigant Mantle',
     },
     IdleDT = { 
         Ammo  = 'Happy Egg',

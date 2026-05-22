@@ -49,10 +49,10 @@ local sets = {
     },
     Town = {},
     Movement = {
-        Hands = 'Onimusha Kote',
+        Hands = 'Ochimusha Kote',
     },
     Movement_TP = {
-        Hands = 'Onimusha Kote',
+        Hands = 'Ochimusha Kote',
     },
 
     DT = {

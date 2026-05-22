@@ -10,12 +10,45 @@ local gaudy_harness = {
 }
 
 local sets = {
-    Idle = {},
-    IdleALT = {},
+    Idle = {
+        Head  = 'Optical Hat',
+        Neck  = 'Peacock Amulet',
+        Body  = "Haubergeon",
+        Hands = 'Thick Mufflers',
+        Legs  = "Byakko\'s Haidate",
+        Feet  = 'Alumine sollerets',
+        Waist = 'Swift belt',
+        Ear1  = 'Stealth Earring',
+        Ear2  = 'Brutal Earring',
+        Ring1 = 'Toreador\'s Ring',
+        Ring2 = 'Rajas Ring',
+        Back  = 'Forager\'s Mantle',
+        -- range = 'lightning bow +1',
+        -- ammo = 'demon arrow',
+    },
+    IdleALT = {
+        Head  = 'Alumine salade',
+        Neck  = 'Peacock Amulet',
+        Body  = "Haubergeon",
+        Hands = 'Alumine Moufles',
+        Legs  = "Byakko\'s Haidate",
+        Feet  = 'Alumine sollerets',
+        Waist = 'Swift belt',
+        Ear1  = 'Merman\'s Earring',
+        Ear2  = 'Brutal Earring',
+        Ring1 = 'Toreador\'s Ring',
+        Ring2 = 'Rajas Ring',
+        Back  = 'Amemet Mantle',
+    },
     Resting = {},
     Town = {},
-    Movement = {},
-    Movement_TP = {},
+    Movement = {
+        Hands = 'Thick Mufflers',
+    },
+    Movement_TP = {
+        Hands = 'Thick Mufflers',
+
+    },
 
     DT = {},
     MDT = {},
@@ -31,30 +64,94 @@ local sets = {
     SIRD = { -- Only used for Idle sets and not while Override sets are active
     },
     Haste = { -- Used for Utsusemi cooldown
+        Hands = 'Dusk gloves',
+        Waist = 'Swift belt',
+        Legs = 'Byakko\'s Haidate',
+        Head = 'Panther Mask',
     },
 
     LockSet1 = {},
     LockSet2 = {},
     LockSet3 = {},
 
-    TP_LowAcc = {},
+    TP_LowAcc = {
+        Head  = 'Panther Mask',
+        Neck  = 'Peacock Amulet',
+        Body  = "Haubergeon",
+        Hands = 'Dusk gloves',
+        Legs  = "Byakko\'s Haidate",
+        Feet  = 'Alumine sollerets',
+        Waist = 'Swift belt',
+        Ear1  = 'Stealth Earring',
+        Ear2  = 'Brutal Earring',
+        Ring1 = 'Toreador\'s Ring',
+        Ring2 = 'Rajas Ring',
+        Back  = 'Forager\'s Mantle',
+    },
     TP_Aftermath = {},
     TP_Mjollnir_Haste = {},
-    TP_HighAcc = {},
+    TP_HighAcc = {
+        Head  = 'Optical Hat',
+        Neck  = 'Peacock Amulet',
+        Body  = "Haubergeon",
+        Hands = 'Dusk Gloves',
+        Legs  = "Byakko\'s Haidate",
+        Feet  = 'Alumine sollerets',
+        Waist = 'Swift belt',
+        Ear1  = 'Stealth Earring',
+        Ear2  = 'Brutal Earring',
+        Ring1 = 'Toreador\'s Ring',
+        Ring2 = 'Rajas Ring',
+        Back  = 'Forager\'s Mantle',
+    },
     TP_NIN = {},
 
-    WS = {},
+    WS = {
+        Head  = 'Optical Hat',
+        Neck  = 'Peacock Amulet',
+        Body  = "Haubergeon",
+        Hands = 'Alumine Moufles',
+        Legs  = "Byakko\'s Haidate",
+        Feet  = 'Alumine sollerets',
+        Waist = "Warwolf Belt",
+        -- Waist = 'Master Belt',
+        Ear1  = 'Merman\'s Earring',
+        Ear2  = 'Brutal Earring',
+        Ring1 = 'Toreador\'s Ring',
+        Ring2 = 'Rajas Ring',
+        Back  = 'Forager\'s Mantle',
+    },
     WS_HighAcc = {},
 
-    Charm = {},
-    Reward = {},
+    Charm = {
+        Main = 'Light Staff',
+        Body = 'Beast Jackcoat',
+        Hands = 'Beast Gloves',
+        Legs = 'Beast Trousers',
+        Feet = 'Beast Gaiters',
+    },
+    Reward = {
+        Body = 'Beast Jackcoat',
+        Feet = 'Beast Gaiters',
+    },
     Ready_Physical = {},
     Ready_Magic = {},
-    Call_Beast = {},
+    Call_Beast = {
+        Ammo = "S. Herbal Broth",
+    },
 
-    Weapon_Loadout_1 = {},
-    Weapon_Loadout_2 = {},
-    Weapon_Loadout_3 = {},
+    Weapon_Loadout_1 = {
+        Main = "Maneater",
+        Sub = "Tabarzin",  
+    },
+    Weapon_Loadout_2 = {
+        Main = "Darksteel Tabar",
+        Sub = "Darksteel Tabar",
+    },
+    Weapon_Loadout_3 = {
+        Main = "Mythril Pick +1",
+        Sub = "Mythril Pick +1",
+    },
 }
 
 profile.SetMacroBook = function()
